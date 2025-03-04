@@ -102,7 +102,7 @@ a {
   gap: 32px;
 }
 
-.info .images div {
+.info .images .img_caption {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,22 +111,33 @@ a {
   gap: 8px;
 }
 
-.info .images div img {
+.info .images .img_caption img {
   border: 4px solid #3882F6;
   border-radius: 15px;
 }
 
 .quote {
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote .text {
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
+  max-width: 780px;
 }
 
 .quote .citation {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
+  text-align: end;
+  max-width: 700px;
+  width: 100%
 }
 
 .action {
