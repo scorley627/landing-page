@@ -15,6 +15,9 @@ button {
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight: 600;
+  height: 35px;
+  width: 130px;
+  border-radius: 10px;
 }
 
 ul {
@@ -70,10 +73,7 @@ a {
 }
 
 .header .hero button {
-  max-width: 130px;
   margin-top: 16px;
-  height: 35px;
-  border-radius: 10px;
   border: none;
 }
 
@@ -143,6 +143,14 @@ a {
 .action {
   background-color: #3882F6;
   color: #E5E7EB;
+  width: 1010px;
+  height: 150px;
+  margin: 100px auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
 }
 
 .action h2 {
@@ -150,7 +158,14 @@ a {
   font-size: 24px;
 }
 
+.action button {
+  border: 2px solid white;
+}
+
 .footer {
   background-color: #1F2937;
   color: #E5E7EB;
+  height: 100px;
+  align-content: center;
+  text-align: center;
 }
