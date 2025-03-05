@@ -6,4 +6,4 @@ layouts to create complex page designs.
 CSS properties demonstrated include flex-direction, justify-content,
 align-items, align-content, min-width, and max-width.
 
-Based on the Landing Page project from The Odin Project.
+Based on the Landing Page assignment from The Odin Project.
